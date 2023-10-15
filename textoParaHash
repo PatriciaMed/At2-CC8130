@@ -10,10 +10,11 @@ if S_F1 == "d24de3ec3835115c576a55188a31761b73af93ed2c45a171c810bb66b24b08f9" an
 
 else:
   if S_F1 == "d24de3ec3835115c576a55188a31761b73af93ed2c45a171c810bb66b24b08f9":
-    print("MD5 errado frase 1:",M_F1)
+    print("MD5 errado frase 1:", M_F1)
   if M_F1 == "c850e1a34a6ed572e0758ccd9c615bda":
-    print("SHA256 errado frase 1:",S_F1)
-  print("frase 1 incorreta:SHA256",S_F1," MD5",M_F1)
+    print("SHA256 errado frase 1:", S_F1)
+  else:
+    print("frase 1 incorreta:SHA256", S_F1, " MD5", M_F1)
 
 frase2 = "A FEI é uma instituição vinculada estatutariamente à Companhia de Jesus"
 
@@ -24,11 +25,12 @@ if S_F2 == "6979a3d7a19e5921ae00ca7db9b814e1b83831dcedfca33dbb72e761ca084337" an
   print("frase 2 correta")
 
 else:
-  if S_F2 == "6979a3d7a19e5921ae00ca7db9b814e1b83831dcedfca33dbb72e761ca084337"
-  print("MD5 errado frase 2:",M_F2)
+  if S_F2 == "6979a3d7a19e5921ae00ca7db9b814e1b83831dcedfca33dbb72e761ca084337":
+    print("MD5 errado frase 2:", M_F2)
   if M_F2 == "b710771da8d7521524f45233ea9dd9e1":
-  print("SHA256 errado frase 2:",S_F2)
-  print("frase 2 incorreta:SHA256",S_F2," MD5",M_F2)
+    print("SHA256 errado frase 2:", S_F2)
+  else:
+    print("frase 2 incorreta:SHA256", S_F2, " MD5", M_F2)
 
 frase3 = "Em 20 de janeiro de 1951 foi realizada a sessão solene da congregação para a Colação de Grau da primeira turma da Faculdade de Engenharia Industrial."
 
@@ -39,11 +41,12 @@ if S_F3 == "6c582a993ba3ea454f11221a374878e534cfe666060c87ba03127de07f1ca4e6" an
   print("frase 3 correta")
 
 else:
-  if  S_F3 == "6c582a993ba3ea454f11221a374878e534cfe666060c87ba03127de07f1ca4e6":
-    print("MD5 errado frase 3:",M_F3)
+  if S_F3 == "6c582a993ba3ea454f11221a374878e534cfe666060c87ba03127de07f1ca4e6":
+    print("MD5 errado frase 3:", M_F3)
   if M_F3 == "55748c2cb669a9d9508677cb914cb025":
-    print("SHA256 errado frase 3:",S_F3)
-  print("frase 3 incorreta:SHA256",S_F3," MD5",M_F3)
+    print("SHA256 errado frase 3:", S_F3)
+  else:
+    print("frase 3 incorreta:SHA256", S_F3, " MD5", M_F3)
 
 frase4 = "A Capela Santo Inácio de Loyola foi construída no ano de 1978, em concreto aparente."
 
@@ -54,11 +57,12 @@ if S_F4 == "254e695d0f8835651bc231f9cf1b2a7a097b84948f05f79f1855a55f85b089e" and
   print("frase 4 correta")
 
 else:
-  if  S_F4 == "254e695d0f8835651bc231f9cf1b2a7a097b84948f05f79f1855a55f85b089e":
-    print("MD5 errado frase 4:",M_F4)
+  if S_F4 == "254e695d0f8835651bc231f9cf1b2a7a097b84948f05f79f1855a55f85b089e":
+    print("MD5 errado frase 4:", M_F4)
   if M_F4 == "f4a8a299fd4da2a5d70b374be2e48147":
-    print("SHA256 errado frase 4:",S_F4)
-  print("frase 4 incorreta:SHA256",S_F4," MD5",M_F4)
+    print("SHA256 errado frase 4:", S_F4)
+  else:
+    print("frase 4 incorreta:SHA256", S_F4, " MD5", M_F4)
 
 frase5 = "Tendo como função principal a promoção do aprimoramento profissional no campo administrativo e tecnológico, o IECAT (Instituto de Especialização em Ciências Administrativas e Tecnológicas) foi criado em 1982"
 
@@ -69,11 +73,12 @@ if S_F5 == "d2150d688c337fc57e235adafd57f86d7aba0b8682c249b1006ba592706f88a0" an
   print("frase 5 correta")
 
 else:
-  if  S_F5 == "d2150d688c337fc57e235adafd57f86d7aba0b8682c249b1006ba592706f88a0":
-    print("MD5 errado frase 5:",M_F5)
+  if S_F5 == "d2150d688c337fc57e235adafd57f86d7aba0b8682c249b1006ba592706f88a0":
+    print("MD5 errado frase 5:", M_F5)
   if M_F5 == "1c4ecc238571333ae507f82ff6a5e9e4":
-    print("SHA256 errado frase 5:",S_F5)
-  print("frase 5 incorreta:SHA256",S_F5," MD5",M_F5)
+    print("SHA256 errado frase 5:", S_F5)
+  else:
+    print("frase 5 incorreta:SHA256", S_F5, " MD5", M_F5)
 
 frase6 = "Dentro de uma proposta de integração e de agregação de competências, visando a excelência de seus cursos, as instituições FEI, FCI e ESAN foram transformadas no Centro Universitário da FEI no ano de 2002."
 
@@ -84,11 +89,12 @@ if S_F6 == "faefb927a21dd282ee00effe42bc0688f649450677a61edce15863a15461b721" an
   print("frase 6 correta")
 
 else:
-  if  S_F6 == "faefb927a21dd282ee00effe42bc0688f649450677a61edce15863a15461b721":
-    print("MD5 errado frase 6:",M_F6)
+  if S_F6 == "faefb927a21dd282ee00effe42bc0688f649450677a61edce15863a15461b721":
+    print("MD5 errado frase 6:", M_F6)
   if M_F6 == "98420532cbf1be32a98be579f592cd72":
-    print("SHA256 errado frase 6:",S_F6)
-  print("frase 6 incorreta:SHA256",S_F6," MD5",M_F6)
+    print("SHA256 errado frase 6:", S_F6)
+  else:
+    print("frase 6 incorreta:SHA256", S_F6, " MD5", M_F6)
 
 frase7 = "O Centro Universitário da FEI passou a fazer parte do seleto grupo que produz ciência no Brasil, quando a CAPES aprovou o primeiro curso de Mestrado em Engenharia Elétrica em 2005."
 
@@ -99,11 +105,11 @@ if S_F7 == "da9f214449005850f4fd552238658820434c15ca06389d018b1814bb376abaa6" an
   print("frase 7 correta")
 
 else:
-  if S_F7 == "da9f214449005850f4fd552238658820434c15ca06389d018b1814bb376abaa6" :
-    print("MD5 errado frase 7:",M_F7)
+  if S_F7 == "da9f214449005850f4fd552238658820434c15ca06389d018b1814bb376abaa6":
+    print("MD5 errado frase 7:", M_F7)
   if M_F7 == "2e20bfbece6fdc62de4c4bb80a77ba1f":
-    print("SHA256 errado frase 7:",S_F5)
-  print("frase 7 incorreta:SHA256",S_F7," MD5",M_F7)
+    print("SHA256 errado frase 7:", S_F5)
+  print("frase 7 incorreta:SHA256", S_F7, " MD5", M_F7)
 
 frase8 = "Em 2016 foi realizada a primeira edição do congresso de inovação - Megatendências 2050."
 
@@ -115,10 +121,11 @@ if S_F8 == "56f4ba0ea34d91fe386f09dc687f1c35c757009b0230a828fa43e48ac08f8d0c" an
 
 else:
   if S_F8 == "56f4ba0ea34d91fe386f09dc687f1c35c757009b0230a828fa43e48ac08f8d0c":
-    print("MD5 errado frase 8:",M_F8)
+    print("MD5 errado frase 8:", M_F8)
   if M_F8 == "5cbf7c58bf9acd451c3bf1b48392a9e6":
-    print("SHA256 errado frase 8:",S_F8)
-  print("frase 8 incorreta:SHA256",S_F8," MD5",M_F8)
+    print("SHA256 errado frase 8:", S_F8)
+  else:
+    print("frase 8 incorreta:SHA256", S_F8, " MD5", M_F8)
 
 frase9 = "Em 2012 o Centro Universitário FEI celebrou 70 anos de história e de excelência na inovação e na formação de mais de 50 mil profissionais altamente qualificados para o setor empresarial, entre Administradores, Engenheiros e Cientistas da Computação."
 
@@ -129,11 +136,12 @@ if S_F9 == "2707325bd4929bbbadb422851a2248615bf7998bf3607b6ad934168be6a45859" an
   print("frase 9 correta")
 
 else:
-  if  S_F9 == "2707325bd4929bbbadb422851a2248615bf7998bf3607b6ad934168be6a45859":
-    print("MD5 errado frase 9:",M_F9)
+  if S_F9 == "2707325bd4929bbbadb422851a2248615bf7998bf3607b6ad934168be6a45859":
+    print("MD5 errado frase 9:", M_F9)
   if M_F9 == "a0a80cbc42bcd7b4b6ab317d0d2efa33":
-    print("SHA256 errado frase 9:",S_F9)
-  print("frase 9 incorreta:SHA256",S_F9," MD5",M_F9)
+    print("SHA256 errado frase 9:", S_F9)
+  else:
+    print("frase 9 incorreta:SHA256", S_F9, " MD5", M_F9)
 
 frase10 = "Em 1999 iniciam-se as atividades da FCI (Faculdade de Informática), como o curso de Ciência da Computação."
 
@@ -144,8 +152,9 @@ if S_F10 == "b2ff0457c8c20ccd84e20cd72f06c08140b8ea472d6a6848a5c291319bf9e4a8" a
   print("frase 10 correta")
 
 else:
-  if  S_F10 == "b2ff0457c8c20ccd84e20cd72f06c08140b8ea472d6a6848a5c291319bf9e4a8":
-    print("MD5 errado frase 10:",M_F10)
+  if S_F10 == "b2ff0457c8c20ccd84e20cd72f06c08140b8ea472d6a6848a5c291319bf9e4a8":
+    print("MD5 errado frase 10:", M_F10)
   if M_F10 == "0288b32001adf2f237ba8410f8415e50":
-    print("SHA256 errado frase 10:",S_F10)
-  print("frase 10 incorreta:SHA256",S_F10," MD5",M_F10)
+    print("SHA256 errado frase 10:", S_F10)
+  else:
+    print("frase 10 incorreta:SHA256", S_F10, " MD5", M_F10)
